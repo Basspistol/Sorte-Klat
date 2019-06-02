@@ -1,0 +1,8 @@
+.editor-link {
+  display: none;
+  color:red !important;
+}
+
+.cms-editor-active .editor-link {
+  display: block;
+}
