@@ -40,6 +40,7 @@ hr {
   height: 100px;
   background-color: #000;
   color: #fff;
+  overflow-x: hidden;
   h1 {
     font-size: 3em;
     margin: 10px; 
@@ -51,6 +52,7 @@ hr {
   section {
   display: flex;
   flex-wrap: wrap;
+  overflow-x: hidden;
   }
   header {
     flex: 0 0 100%;
