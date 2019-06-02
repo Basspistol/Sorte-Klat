@@ -1,2 +1,2 @@
-# soteklatt
-Blog for Sotteklatt
+# Sorte Klat
+Blog for Sorte Klat
