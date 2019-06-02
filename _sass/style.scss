@@ -1,7 +1,12 @@
 $baseline: 22px;
 
+body {
+  font-family: noto;
+  overflow-x: hidden;
+}
+
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 500;
+  font-family: notob;
 }
 h1 {
   font-size: 2em;
@@ -38,13 +43,12 @@ hr {
   color: #fff;
   h1 {
     font-size: 3em;
-    font-weight: 700;
     margin: 10px; 
   }
 }
 #content {
   margin-top: 100px;
-  width: 100vw;
+  width: 100%;
   section {
   display: flex;
   flex-wrap: wrap;
