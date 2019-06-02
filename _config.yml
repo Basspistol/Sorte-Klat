@@ -10,7 +10,7 @@ baseurl: ''
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: 'Funderingar om dåtiden, nutiden och framtiden'
+description: 'Funderingar kring dåtiden, nutiden och framtiden.'
 author:
   name: Sorte Klat
   email: sorteklat@basspistol.com
