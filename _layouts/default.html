@@ -15,8 +15,15 @@
 
 <body>
 {% include head.html %}
+
 <div id="content">
-{{ content }}
+  <section>
+    <header>
+    <h2>{{ page.title }}</h2>
+    {% if page.url == '/' %}<h3>{{ site.description }}</h3>{% else %}<h3>{{ page.description }}</h3>{% endif %}
+    </header>
+    {{ content }}
+  </section>
 </div>
 
 </body>
