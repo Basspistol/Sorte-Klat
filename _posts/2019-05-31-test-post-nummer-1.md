@@ -1,7 +1,7 @@
 ---
 title: Test post nummer 1
-date: 2019-05-31
-description: DEnna post är en testpost för att kolla om allt funkar
+date: 2019-05-31 02:00:00 +0200
+description: Denna post är en testpost för att kolla om allt funkar
 image: /Spökplumpen.gif
 category: kortis
 ---
