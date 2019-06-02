@@ -29,11 +29,11 @@ p {
 }
 a, a:visited {
   color: #f00;
-  -webkit-transition: color 1s linear;
-  -moz-transition: color 1s linear;
-  -ms-transition: color 1s linear;
-  -o-transition: color 1s linear;
-  transition: color 1s linear;
+  -webkit-transition: color 0.5s linear;
+  -moz-transition: color 0.5s linear;
+  -ms-transition: color 0.5s linear;
+  -o-transition: color 0.5s linear;
+  transition: color 0.5s linear;
 }
 a:hover {
   color: rgb(0, 182, 0);
