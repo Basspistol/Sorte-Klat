@@ -52,13 +52,13 @@ defaults:
       layout: "post"
       _options:
         image:
-          uploads_dir: "images/nyheter"
+          uploads_dir: "images/posts"
           width: "960"
           height: "430"
           resize_style: "cover"
           mime_type: "image/jpeg"
         content:
-          uploads_dir: "images/nyheter"
+          uploads_dir: "images/posts"
           width: "960"
           height: "430"
           resize_style: "cover"
