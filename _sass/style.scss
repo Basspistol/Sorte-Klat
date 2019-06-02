@@ -22,6 +22,12 @@ h4, h5, h6 {
 p {
   line-height: $baseline;
 }
+hr { 
+  flex: 0 0 100%;
+  margin: auto;
+  border-style: inset;
+  border-width: 1px;
+}
 #header {
   position: absolute;
   top: 0;
@@ -45,6 +51,7 @@ p {
   }
   header {
     flex: 0 0 100%;
+    margin: 10px;
   }
   .article {
     padding: 10px;
@@ -52,6 +59,7 @@ p {
     width: 100%;
     img { 
       float: left;
+      width: 50%;
     }
     .image {
       width: 100%;
