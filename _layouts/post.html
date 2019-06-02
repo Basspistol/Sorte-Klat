@@ -4,4 +4,6 @@ layout: default
 <div class="article">
   <img src="{{ page.image }}" />
   {{ content }} 
+  
+  {% if page.previous.url %}<a href="{{ page.previous.url }}">Äldre inlägg</a>{% endif %} {% if page.previous == nil %}{% elsif page.next == nil %}{% else %} | {% endif %}{% if page.next.url %} <a href="{{ page.next.url }}">Nyare inlägg</a>{% endif %}
 </div>
