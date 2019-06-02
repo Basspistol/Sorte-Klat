@@ -1,10 +1,60 @@
+$baseline: 22px;
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+h1 {
+  font-size: 2em;
+  line-height: $baseline*2;
+}
+h2 {
+  font-size: 1.8em;
+  line-height: $baseline*1.8;
+}
+h3 {
+  font-size: 1.5em;
+  line-height: $baseline*1.5;
+}
+h4, h5, h6 {
+  font-size: 1.3em;
+  line-height: $baseline*1.3;
+}
+p {
+  line-height: $baseline;
+}
 #header {
   width: 100vw;
   height: 100px;
   overflow: hidden;
+  background-color: #000;
+  color: #fff;
   h1 {
     font-size: 3em;
     font-weight: 700;
     margin: 10px; 
+  }
+  h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 10px;
+  }
+}
+#content {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  .article {
+    padding: 10px;
+    flex: 1 1 400px;
+    width: 100%;
+    img { 
+      float: left;
+    }
+    .image {
+      width: 100%;
+      height: 300px;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
   }
 }

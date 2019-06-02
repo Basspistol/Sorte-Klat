@@ -3,3 +3,13 @@ title:
 layout: default
 image: 
 ---
+{% for post in site.posts %}
+<div class="article">
+  <a href="{{ post.url }}"><div class="image" style="background-image: url('{{ post.image }}');width:100%; height: 300px;">
+  </div></a>
+  <a href="{{ post.url }}">
+    <h3>{{ post.title }}</h3>
+  </a>
+  {{ post.description }}
+</div>
+{% endfor %}

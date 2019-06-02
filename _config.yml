@@ -38,109 +38,45 @@ exclude:
   - README.md
   - LICENCE
 
-# collections:
-#   foretag:
-#     output: true
-#     permalink: /foretag/:name/
-#     layout: generic
-#   privat:
-#     output: true
-#     permalink: /privat/:name/
-#     layout: generic
 
-
-# defaults:
-#   -
-#     scope:
-#       path: ""
-#     values:
-#       layout: "default"
-#   -
-#     scope:
-#       type: "posts"
-#     values:
-#       layout: "post"
-#       _options:
-#         image:
-#           uploads_dir: "images/nyheter"
-#           width: "960"
-#           height: "430"
-#           resize_style: "cover"
-#           mime_type: "image/jpeg"
-#         content:
-#           uploads_dir: "images/nyheter"
-#           width: "960"
-#           height: "430"
-#           resize_style: "cover"
-#           mime_type: "image/jpeg"
-#   -
-#     scope:
-#       type: "pages"
-#     values:
-#       _options:
-#         image:
-#           uploads_dir: "images"
-#           width: "960"
-#           height: "540"
-#           resize_style: "cover"
-#           mime_type: "image/jpeg"
-#         content:
-#           uploads_dir: "images"
-#           width: "960"
-#           height: "540"
-#           resize_style: "cover"
-#           mime_type: "image/jpeg"
-#   -
-#     scope:
-#       type: "foretag"
-#     values:
-#       _options:
-#         image:
-#           uploads_dir: "images"
-#           width: "960"
-#           height: "540"
-#           resize_style: "cover"
-#           mime_type: "image/jpeg"
-#         content:
-#           uploads_dir: "images"
-#           width: "960"
-#           height: "540"
-#           resize_style: "cover"
-#           mime_type: "image/jpeg"
-#         icon_image:
-#           uploads_dir: "images/ikon"
-#           width: "75"
-#           height: "75"
-#           resize_style: "cover"
-#           mime_type: "image/png"
-#         layout:
-#           hidden: true
-#         permalink:
-#           hidden: true
-#   -
-#     scope:
-#       type: "privat"
-#     values:
-#       _options:
-#         image:
-#           uploads_dir: "images"
-#           width: "960"
-#           height: "540"
-#           resize_style: "cover"
-#           mime_type: "image/jpeg"
-#         content:
-#           uploads_dir: "images"
-#           width: "960"
-#           height: "540"
-#           resize_style: "cover"
-#           mime_type: "image/jpeg"
-#         icon_image:
-#           uploads_dir: "images/ikon"
-#           width: "75"
-#           height: "75"
-#           resize_style: "cover"
-#           mime_type: "image/png"
-#         layout:
-#           hidden: true
-#         permalink:
-#           hidden: true
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+      _options:
+        image:
+          uploads_dir: "images/nyheter"
+          width: "960"
+          height: "430"
+          resize_style: "cover"
+          mime_type: "image/jpeg"
+        content:
+          uploads_dir: "images/nyheter"
+          width: "960"
+          height: "430"
+          resize_style: "cover"
+          mime_type: "image/jpeg"
+  -
+    scope:
+      type: "pages"
+    values:
+      _options:
+        image:
+          uploads_dir: "images"
+          width: "960"
+          height: "540"
+          resize_style: "cover"
+          mime_type: "image/jpeg"
+        content:
+          uploads_dir: "images"
+          width: "960"
+          height: "540"
+          resize_style: "cover"
+          mime_type: "image/jpeg"
