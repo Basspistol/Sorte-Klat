@@ -1,0 +1,146 @@
+# ----
+# Site
+
+title: Sorte Klat
+url: 'https://sorteklat.basspistol.com'
+baseurl: ''
+# google_analytics_key: UA-92815126-1
+# google_maps_javascript_api_key:
+# disqus_shortname:
+
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /siteicon.png
+description: 'Funderingar om dåtiden, nutiden och framtiden'
+author:
+  name: Sorte Klat
+  email: sorteklat@basspistol.com
+#  twitter: # twitter username without the @ symbol
+feed:
+  path: rss.xml
+lang: sv_SE
+
+# -----
+# Build
+
+timezone: "Europe/Stockholm"
+
+permalink: /:categories/:year/:month/:day/:slug/
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate-v2
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+
+# collections:
+#   foretag:
+#     output: true
+#     permalink: /foretag/:name/
+#     layout: generic
+#   privat:
+#     output: true
+#     permalink: /privat/:name/
+#     layout: generic
+
+
+# defaults:
+#   -
+#     scope:
+#       path: ""
+#     values:
+#       layout: "default"
+#   -
+#     scope:
+#       type: "posts"
+#     values:
+#       layout: "post"
+#       _options:
+#         image:
+#           uploads_dir: "images/nyheter"
+#           width: "960"
+#           height: "430"
+#           resize_style: "cover"
+#           mime_type: "image/jpeg"
+#         content:
+#           uploads_dir: "images/nyheter"
+#           width: "960"
+#           height: "430"
+#           resize_style: "cover"
+#           mime_type: "image/jpeg"
+#   -
+#     scope:
+#       type: "pages"
+#     values:
+#       _options:
+#         image:
+#           uploads_dir: "images"
+#           width: "960"
+#           height: "540"
+#           resize_style: "cover"
+#           mime_type: "image/jpeg"
+#         content:
+#           uploads_dir: "images"
+#           width: "960"
+#           height: "540"
+#           resize_style: "cover"
+#           mime_type: "image/jpeg"
+#   -
+#     scope:
+#       type: "foretag"
+#     values:
+#       _options:
+#         image:
+#           uploads_dir: "images"
+#           width: "960"
+#           height: "540"
+#           resize_style: "cover"
+#           mime_type: "image/jpeg"
+#         content:
+#           uploads_dir: "images"
+#           width: "960"
+#           height: "540"
+#           resize_style: "cover"
+#           mime_type: "image/jpeg"
+#         icon_image:
+#           uploads_dir: "images/ikon"
+#           width: "75"
+#           height: "75"
+#           resize_style: "cover"
+#           mime_type: "image/png"
+#         layout:
+#           hidden: true
+#         permalink:
+#           hidden: true
+#   -
+#     scope:
+#       type: "privat"
+#     values:
+#       _options:
+#         image:
+#           uploads_dir: "images"
+#           width: "960"
+#           height: "540"
+#           resize_style: "cover"
+#           mime_type: "image/jpeg"
+#         content:
+#           uploads_dir: "images"
+#           width: "960"
+#           height: "540"
+#           resize_style: "cover"
+#           mime_type: "image/jpeg"
+#         icon_image:
+#           uploads_dir: "images/ikon"
+#           width: "75"
+#           height: "75"
+#           resize_style: "cover"
+#           mime_type: "image/png"
+#         layout:
+#           hidden: true
+#         permalink:
+#           hidden: true
