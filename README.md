@@ -1,0 +1,2 @@
+# soteklatt
+Blog for Sotteklatt
