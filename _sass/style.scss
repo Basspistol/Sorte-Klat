@@ -45,12 +45,13 @@ hr {
   border-width: 1px;
 }
 #header {
-  position: absolute;
+  position: fixed;
+  z-index: 1000;
   top: 0;
   left: 0;
   width: 100%;
   height: 100px;
-  background-image: linear-gradient(black, white);
+  background-image: linear-gradient(black, transparent);
   color: #fff;
   overflow-x: hidden;
   h1 {
@@ -58,8 +59,17 @@ hr {
     margin: 10px; 
   }
 }
+#hero {
+  display: block;
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 85vh;
+  background-color: #f00;
+}
 #content {
-  margin-top: 100px;
+  position: relative;
+  margin-top: 10px;
   width: 100%;
   section {
   display: flex;

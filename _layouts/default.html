@@ -15,12 +15,14 @@
 
 <body>
 {% include head.html %}
-
+<div id="hero">
+&nbsp;
+</div>
 <div id="content">
   <section>
     <header>
     <h2>{{ page.title }}</h2>
-    {% if page.url == '/' %}<h3>{{ site.description }}</h3>{% else %}<h3>{{ page.description }}</h3>{% endif %}
+    {% if page.url == '/' %}<h3 class="editable">{{ site.description }}</h3>{% else %}<h3>{{ page.description }}</h3>{% endif %}
     </header>
     <hr />
     {{ content }}
