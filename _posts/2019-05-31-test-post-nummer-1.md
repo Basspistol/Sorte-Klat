@@ -2,7 +2,13 @@
 title: Test post nummer 3
 date: 2019-05-31 02:00:00 +0200
 description: Denna post är en testpost för att kolla om allt funkar
-image: /Spökplumpen.gif
+images: 
+  - path: /images/posts/20150424_DSC0952.jpg
+    decsription: Loggan
+  - path: /images/posts/20150516_DSC1022.jpg
+    description: super bild
+  - path: /images/posts/20150516_DSC1028.jpg
+    description: En till mega bild
 musik_link:
 category: kortis
 ---

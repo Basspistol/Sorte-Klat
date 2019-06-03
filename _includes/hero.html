@@ -1,0 +1,20 @@
+<div id="hero">
+{% if page.url != '/' %}
+{% for image in page.images %}
+<img src="{{ image.path }}" alt="{{ image.description }}" />
+{% endfor %}
+{% else %}
+{% for post in site.posts limit: 1 %}
+{% for image in post.images limit: 1 %}
+<style>
+#hero {
+  background-image: url('{{ image.path }}');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+</style>
+{% endfor %}
+{% endfor %}
+{% endif %}
+</div>
