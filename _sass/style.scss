@@ -89,9 +89,17 @@ hr {
     padding: 10px;
     flex: 1 1 400px;
     width: 100%;
-    img { 
-      float: left;
-      width: 50%;
+    .flexcontainer {
+      display: flex;
+      flex-wrap: wrap;
+      div {
+        flex: 1 1 500px;
+        margin-right: 5px;
+        img { 
+          width: 45%;
+        }
+      }
+      
     }
     .image {
       width: 100%;

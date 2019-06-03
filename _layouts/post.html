@@ -2,8 +2,16 @@
 layout: default
 ---
 <div class="article">
-  <img src="{{ page.image }}" />
-  {{ content }} 
+  <div class="flexcontainer">
+    <div>
+      {{ content }} 
+    </div>
+    <div>
+        {% for image in page.images %}
+        <a href="{{ image.path }}" target="_blank"><img src="{{ image.path }}" alt="{{ image.description }}" /> </a>
+        {% endfor %}
+    </div>
+  </div>
   <div style="text-align: center;margin-top:50px;">
       {% if page.previous.url %}<a href="{{ page.previous.url }}">&laquo; Äldre inlägg</a>{% endif %} 
       {% if page.previous == nil %}{% elsif page.next == nil %}{% else %} | {% endif %}
