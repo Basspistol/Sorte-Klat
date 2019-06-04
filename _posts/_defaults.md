@@ -1,8 +1,10 @@
 ---
-title:
-date:
-description:
-image:
-musik_link:
-category: 
+title: ''
+date: ''
+description: ''
+images: 
+  - path: ''
+    description: ''
+musik_link: ''
+category: ''
 ---
