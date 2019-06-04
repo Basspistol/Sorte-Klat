@@ -51,13 +51,12 @@ defaults:
     values:
       layout: "post"
       _options:
-        images:
-          path:
-            uploads_dir: "images/posts"
-            width: "960"
-            height: "430"
-            resize_style: "cover"
-            mime_type: "image/jpeg"
+        image:
+          uploads_dir: "images/posts"
+          width: "960"
+          height: "430"
+          resize_style: "cover"
+          mime_type: "image/jpeg"
         content:
           uploads_dir: "images/posts"
           width: "960"

@@ -3,7 +3,7 @@ title: ''
 date: ''
 description: ''
 images: 
-  - path: ''
+  - image: ''
     description: ''
 musik_link: ''
 category: ''
