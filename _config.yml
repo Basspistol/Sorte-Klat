@@ -51,7 +51,7 @@ defaults:
     values:
       layout: "post"
       _options:
-        image:
+        images:
           uploads_dir: "images/posts"
           width: "960"
           height: "430"
