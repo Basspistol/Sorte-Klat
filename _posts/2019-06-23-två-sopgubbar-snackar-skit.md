@@ -9,7 +9,7 @@ musik_link:
 category: long
 ---
 
-&nbsp;
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQYV2P4////fwAJ+wP9BUNFygAAAABJRU5ErkJggg==){: .cms-image-placeholder}
 
 \- Det blir bra det h&auml;r med AI, d&aring; g&aring;r bilen sj&auml;lv ner i k&auml;llaren och h&auml;mtar soporna.
 
