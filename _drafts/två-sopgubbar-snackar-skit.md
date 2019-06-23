@@ -11,7 +11,7 @@ musik_link:
 category: long
 ---
 
-&nbsp;
+![](/images/posts/garaget-0001.jpg){: width="960" height="638"}
 
 \- Det blir bra det h&auml;r med AI, d&aring; g&aring;r bilen sj&auml;lv ner i k&auml;llaren och h&auml;mtar soporna.
 
