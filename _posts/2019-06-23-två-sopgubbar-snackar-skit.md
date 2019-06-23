@@ -3,7 +3,7 @@ title: Två sopgubbar snackar skit
 date: 2019-06-23 14:00:00 +0200
 description: Diskussioner mellan två samhällsanalyserande sopgubbar
 images:
-  - image: /images/posts/garaget-0001.jpg
+  - image:
     description:
 musik_link:
 category: long
