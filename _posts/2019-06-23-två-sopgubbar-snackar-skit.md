@@ -9,7 +9,7 @@ musik_link:
 category: long
 ---
 
-![](/images/posts/garaget-0001.jpg){: width="960" height="638"}
+&nbsp;
 
 \- Det blir bra det h&auml;r med AI, d&aring; g&aring;r bilen sj&auml;lv ner i k&auml;llaren och h&auml;mtar soporna.
 
@@ -17,4 +17,4 @@ category: long
 
 \- Den blir större efter tre försök.
 
-![](/images/posts/sellbergs-på-ålandsbåt--mera-0025.jpg){: width="959" height="647"}
+&nbsp;
