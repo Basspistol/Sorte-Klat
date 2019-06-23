@@ -3,8 +3,6 @@ title: Två sopgubbar snackar skit
 date: 2019-06-23 14:00:00 +0200
 description: Diskussioner mellan två samhällsanalyserande sopgubbar
 images:
-  - image: /images/posts/sellbergs-på-ålandsbåt--mera-0025.jpg
-    description:
   - image: /images/posts/garaget-0001.jpg
     description:
 musik_link:
